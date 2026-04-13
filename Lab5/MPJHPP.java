@@ -36,18 +36,8 @@ public class MPJHPP {
             display = new Display();
         }
 
-        // Make voltage non-zero on left and right edges
-
         int begin = 1 ;
         int end = B+1 ;
-
-        // if(me == 0) {
-        //     begin = 2 ;
-        // }
-    
-        // if (me == P-1) {
-        //     end = B ;
-        // }
 
         int last = me*(B);
         for(int i=begin; i<end; i++){
